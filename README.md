@@ -12,8 +12,8 @@
 
 首先，克隆本仓库到你的本地：
 ```bash
-git clone https://github.com/ruihaoGitHub/Discreate_math_final_paper_code.git
-cd Discreate_math_final_paper_code
+git clone https://github.com/ruihaoGitHub/Discreate_Math_Final_Paper_Code.git
+cd Discreate_Math_Final_Paper_Code
 ```
 
 然后，安装所需的 Python 依赖库：

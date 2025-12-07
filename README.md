@@ -34,7 +34,7 @@ pip install networkx openai
 2.  使用你的淘宝/阿里云账号登录或注册一个新账号。
 3.  **【关键】** 根据页面提示，**确保你的魔搭账号已经成功绑定了阿里云账号**（通常需要进行实名认证），否则 API 调用会失败。
 4.  复制页面上生成的 `Access Token`。
-5.  打开项目中的 `discreate_math.py` 文件，找到以下代码行：
+5.  打开项目中的两个.py文件，找到以下代码行：
 
     ```python
     # 请在这里填入你的魔搭 SDK Token
@@ -44,10 +44,14 @@ pip install networkx openai
 
 ### 3. 运行程序
 
-一切准备就绪后，在你的终端中运行主程序：
+一切准备就绪后，在你的终端中运行：
 
 ```bash
-python discreate_math.py
+python discreate_math_base.py
+```
+以及
+```bash
+python discreate_math_pro.py
 ```
 
 ## 使用示例
@@ -55,7 +59,6 @@ python discreate_math.py
 程序启动后，你就可以开始向它提问了：
 
 ```console
-(venv) D:\> python discreate_math.py
 正在构建地铁网络...
 --- 深圳地铁智能助手 ---
 
